@@ -1,0 +1,19 @@
+#board {
+    width: 500px;
+    height: 500px;
+
+    border: solid #000 2px;
+}
+
+.boardLayout {
+    display: grid;
+    grid-template-columns: repeat(50, 1fr);
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+}
+
+.pixel {
+    background-color: #000;
+    opacity: 0;
+}
