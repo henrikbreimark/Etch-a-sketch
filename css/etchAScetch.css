@@ -1,13 +1,25 @@
 #board {
     width: 500px;
     height: 500px;
-
     border: solid #000 2px;
+    margin: 10px auto;
+}
+
+#resetBoard {
+    margin: 5px auto;
+    padding: 10px 30px;
+    display: block;
+    border-radius: 10px;
+    background-color: rgb(126, 171, 249);
+    font-weight: bold;
+    font-size: 20px;
+    color:#fff;
 }
 
 .boardLayout {
     display: grid;
     grid-template-columns: repeat(50, 1fr);
+    
     width: 500px;
     height: 500px;
     padding: 5px;
