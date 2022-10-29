@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +10,24 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="js/etchAScetch.js" type="module"></script>
 </head>
+
 <body>
-    <h1>Etch a scetch</h1>
-    <div id="board"></div>
-    <button id="resetBoard">Reset</button>
+    <div id="boardContainer">
+        <h1>Etch a scetch</h1>
+        <p>Enter prefered grid-size:</p>
+        <ul>
+            <li>
+                <label for="squares">How many pixels per side?</label>
+                <input id="squares" type="text">
+            </li>
+            <li>
+                <button id="resetBoard">New board</button>         
+            </li>
+        </ul>
+        <div id="board"></div>
+        
+    </div>
+
 </body>
+
 </html>

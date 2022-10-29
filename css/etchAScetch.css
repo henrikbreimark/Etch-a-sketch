@@ -3,6 +3,7 @@
     height: 500px;
     border: solid #000 2px;
     margin: 10px auto;
+    background-color: #fff;
 }
 
 #resetBoard {
@@ -18,9 +19,7 @@
 
 .boardLayout {
     display: grid;
-    grid-template-columns: repeat(50, 1fr);
-    
-    width: 500px;
+    width: 500pxle;
     height: 500px;
     padding: 5px;
 }
